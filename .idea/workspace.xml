@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e58a1b3-54d7-4f65-928d-24be1370323a" name="Default Changelist" comment="" />
+    <list default="true" id="0e58a1b3-54d7-4f65-928d-24be1370323a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_6.docx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,21 +20,76 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="90" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="90" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b1.html" />
+        <option value="$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b5.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -72,6 +129,30 @@
               <item name="Day06_Javascript_Basic_Part_1" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day06_Javascript_Basic_Part_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day06_Javascript_Basic_Part_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="hungvuday6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day06_Javascript_Basic_Part_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="hungvuday6" type="462c0819:PsiDirectoryNode" />
+              <item name="btvn_6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,8 +168,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PHP0320E\Day06_Javascript_Basic_Part_1\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\PHP0320E\Day06_Javascript_Basic_Part_1\Bai_tap_ve_nha\DSNB" />
+      <recent name="C:\xampp\htdocs\PHP0320E\Day06_Javascript_Basic_Part_1\Bai_tap_ve_nha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,15 +194,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590206460154</updated>
-      <workItem from="1590206461546" duration="862000" />
+      <workItem from="1590206461546" duration="2399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="862000" />
+    <option name="totallyTimeSpent" value="2399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -165,6 +247,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/hungvuday6/btvn_6/b5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
         </state>
       </provider>
     </entry>
