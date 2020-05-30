@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo Layout HTML</title>
+</head>
+<body>
+	<style type="text/css">
+		/*1 - Thành phần inline và block*/
+		/*để test 1 phần tử HTML là inline hay block, thì viết 1 nội dung text bất kỳ ngay phía sau phần tử đó*/
+		/*- Nếu mà text bị xuống dòng - phần tử là block*/
+		/*- Nếu mà text ko bị xuống dòng - inline*/
+		/*1 số thẻ inline: b, i, u, a, span ...*/ 
+		/*1 số thẻ block: p, div, h, ul, ol*/
+		ul {
+		    list-style: none;
+		}
+		/*nên dùng dispay: inline-block thay vì display:inline để linh hoạt hơn trong việc margin trên dưới*/
+		li {
+		    /* background: red; */
+		    display: inline-block;
+		    margin-top: 0;
+		    border-right: 1px solid red;
+    		padding-right: 3px;
+		}
+		li:last-child {
+			border-right: none;
+		}
+
+		/*2 - Float*/
+		/*Chuyên dùng để dàn trang - dàn layout*/
+		.row-float {
+			height: 100px;
+			background: yellow;
+		}
+		.col1 {
+			background: red;
+			float: left;
+			width: 50%;
+		}
+		.col2 {
+			background: blue;
+			float: left;
+			width: 50%;
+		}
+		/*khi sử dụng float cần set width tương ứng cho cột đó, đơn vị của width khi dàn trang thường là %*/
+		/*Khi sử dụng float luôn cần phải chú ý đến trường hợp bị vỡ giao diện, hay giao diện hoạt động ko như ý muốn, là do phần tử float luôn có xu hướng hút các phần tử ngay phía sau nó*/
+		/*- Có 2 cách để fix vỡ giao diện*/
+		/*C1: tạo thêm 1 khối HTML với nội dung trống, sau đó sử dụng css clear: both để chặn hành vi float của phần từ trên hoặc dưới phần tự hiện tại*/
+		.clearfix {
+			clear: both;
+		}
+		#a-test {
+		    background: green;
+		    display: block;
+		    margin-top: 37px;
+		}
+		/*C2: can thiệp vào khối cha bao ngoài, mà ko cần tạo thêm HTML như cách 1, sau đó áp dugnj thuộc tính css sau cho khối cha*/
+		.row-float {
+			overflow: auto;
+		}
+
+		.col1-test {
+			background: red;
+		}
+		.col2-test {
+			background: blue;
+		}
+		.col1-test {
+			background: pink;
+		}
+		.col4-test {
+			background: yellow;
+		}
+		.col-test {
+		    float: left;
+		    width: 25%;
+		}
+		.row-test {
+		    overflow: auto;
+		}
+
+		/*3 - Dàn trang theo cơ chế display: flex - Flexbox*/
+		/*Flex có 1 cơ chế rất quan trọng khi dàn trang, mặc định nó sẽ luôn giữ các cột bên trong
+		trên cùng 1 hàng, cho dù có set width của các cột này > 100% đi chăng nữa, vì vậy flex sẽ ko gây ra
+		việc vỡ giao diện như float.
+		, Hiện nay đa số đều dùng flex vào dàn trang thay vì float, vì tính đơn giản của flex
+		*/
+		.col1-flex {
+			background: red;
+			width: 70%;
+		}
+		.col2-flex {
+			background: blue;
+			width: 30%;
+		}
+		.row-flex {
+			display: flex;
+		}
+	</style>
+	
+	<div class="row-flex">
+		<div class="col1-flex col-flex">
+			Cột 1 sử dụng flex
+		</div>
+		<div class="col2-flex col-flex">
+			Cột 2 sử dụng flex
+		</div>
+	</div>
+
+	
+	<!-- Tạo cấu trúc 1 hàng 4 cột có độ rộng bằng nhau -->
+	<div class="container">
+		<div class="row-test">
+			<div class="col1-test col-test">
+				Nội dung 1
+			</div>
+			<div class="col2-test col-test">
+				Nội dung 2
+			</div>
+			<div class="col3-test col-test">
+				Nội dung 3
+			</div>
+			<div class="col4-test col-test">
+				Nội dung 4
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row-float">
+		<div class="col1 col">
+			nội dung cột 1
+		</div>
+		<div class="col2 col">
+			nội dung cột 2
+		</div>
+		<a href="#" id="a-test">
+			Thẻ a test vỡ giao diện
+		</a>
+	</div>
+
+	<!-- <div class="row-float">
+		<div class="col1 col">
+			nội dung cột 1
+		</div>
+		<div class="col2 col">
+			nội dung cột 2
+		</div>
+		<div class="clearfix"></div>
+		<a href="#" id="a-test">
+			Thẻ a test vỡ giao diện
+		</a>
+	</div> -->
+
+	<!-- Dựng menu đơn giản -->
+	<ul>
+		<li><a>Link 1</a></li>
+		<li><a>Link 2</a></li>
+		<li><a>Link 3</a></li>
+		<li><a>Link 4</a></li>
+		<li><a>Link 5</a></li>
+	</ul>
+
+	<span>Thẻ span</span> abcdef
+	<h1>Thẻ h1</h1> xyz
+</body>
+</html>

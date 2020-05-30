@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>CSS Basic</title>
+	<!-- Cách nhúng file từ bên ngoài -->
+	<!-- <link rel="stylesheet" src="style.css" /> -->
+</head>
+<body>
+	<h1>CSS Basic</h1>
+	<style type="text/css">
+		/*Code CSS*/
+		/*I - Có 3 cách nhúng css*/
+		/*1 - Nhúng inline trong thẻ HTML*/
+		/*2 - Nhúng inline trong file HTML*/
+		/*3 - Nhúng từ file bên ngoài .css*/
+		/*II - Selector trong CSS*/
+		/*1 - Selector theo thẻ*/
+		/*2 - Select theo Id bắt đầu bởi tiền tố(#) và class - bắt đầu bởi tiền tố(.)*/
+		 /*3- Selector theo thuộc tính thẻ*/
+		 /*cú pháp như sau:*/
+		 a[href='abc.vn'] {
+		 	color: red;
+		 }
+		 /*4 - Selector theo cấp (cha-con-cháu) */
+		 /*#person > a, #person ~ a*/
+		 #person a {
+		 	background: red;
+		 }
+		 /*5 - Selector theo trạng thái*/
+		 /*có 1 số trạng thái sau:*/
+		 /*- hover: rê chuột qua selector
+		 - first-child, last-child, nth-child(n): vị trí của phần tử con trong phần tử cha;*/
+		 /*- before, after: thêm selector vào trước hoặc sau selector*/
+		 #p-hover:hover {
+		 	color: red;
+		 }
+		 ul li:first-child {
+		 	background: red;
+		 }
+		 ul li:last-child {
+		 	background: yellow;
+		 }
+		 ul li:nth-child(3) {
+		 	background: blue;
+		 }
+		 #a-before-after:before {
+		 	/*bắt buộc phải khai báo thuộc tính content*/
+		 	content: 'Nội dung hiển thị trước thẻ a';
+		 	color: red;
+		 }
+		 #a-before-after:after {
+		 	/*bắt buộc phải khai báo thuộc tính content*/
+		 	content: 'Nội dung hiển thị sau thẻ a';
+		 	color: blue;
+		 }
+
+		 /*III - Điểm lại 1 số CSS căn bản*/
+		 /*Cài đặt Instant Eyedropper - phần mềm nhỏ gọn cho phép lấy mã màu của bất cứ 1 thành phần nào đang hiển thị trên màn hình
+		 Cài đặt LightShoot - Chụp ảnh màn hình
+		 */
+		 /*Sử dụng công cụ Inspect HTML trong trình duyệt để CSS cho trực quan*/
+		 /*1 - Background*/
+		#p-background {
+		    /*background-color: red;
+		    background-image: url(images/image.jpg);
+		    background-repeat: no-repeat;
+		    background-position: center;*/
+		    background: red url('images/image.jpg') no-repeat center;
+		}	
+		/*2 - Font*/
+		/*font-family*/
+		/*font-style: */
+		/*font-weight*/
+		/*font-size: đơn vị thường là pixel */
+		/*3 - Text*/
+		/*color*/
+		/*text-align*/
+		/*text-decoration*/
+		#h1-text {
+		    text-decoration: underline;
+		    text-transform: uppercase;
+		    text-shadow: 3px 2px 8px red;
+		    line-height: 30px;
+		}
+
+		/*4 - Border*/
+		/*border-color*/
+		/*border-style: solid*/
+		/*border-width: */
+		/*border-radius*/
+		/*Cú pháp viết gộp:*/
+		/*border: 2px solid red*/
+		   /* border: 3px dashed blue;
+    border-radius: 15px;*/
+
+    /*5 - Margin*/
+    /*margin: 4px;*/
+    /*margin: 10px 2px; trên-dưới trái-phải*/
+    /*margin: 5px 4px 3px 2px;*/
+
+    /*6 - Padding*/
+    /*các kiểu viết gộp giống hệt margin*/
+
+    /*7 - Width - Height*/
+
+    /*8 - Position*/
+    /*relative
+    absolute
+    fixed*/
+    body {
+    	min-height: 1000px;
+    }
+    /*fixed: vị trí hiển thị luôn cố định, kể cả khi cuộn trang*/
+    #div-fixed {
+	    background: red;
+	    /* margin: 100px; */
+	    position: fixed;
+	    bottom: 0;
+	    right: 293px;
+	}
+	/*vị trí tương đối, tự nó có thể di chuyển mà ko bị phụ thuộc vào thành phần cha*/
+	#div-relative {
+	    background: blue;
+	    position: relative;
+	    top: 47px;
+	    left: 54px;
+	    /* right: 0; */
+	}
+	/*position absolute*/
+	#parent-absolute {
+		background: yellow;
+		height: 300px;
+		position: relative;;
+	}
+	/*position absolute phải nằm trong 1 khối cha nào đó có postion relative để nó ăn theo, còn nếu ko nó sẽ ăn theo 4 cạnh của trình duyệt*/
+	#child-absolute {
+	    background: green;
+	    position: absolute;
+	    top: 0;
+	    margin: 0;
+	}
+	/*z-index*/
+	/*z-index chỉ hoạt động đc với các phần tử đang dùng css position */
+
+	/*overflow: cách thức hiển thị 1 phần tử HTML khi nội dung của nó vượt quá kích thước của khối bao*/
+	#div-overflow {
+		width: 10px;
+		background: red;
+		overflow: hidden;
+	}
+	/*opacity - độ mờ của selector*/
+	#div-overflow {
+		opacity: 0.5;
+	}
+	/*transition: xác định thời gian và hiệu ứng chuyển đổi giữa cái trạng thái của phần tử*/
+	#p-transition {
+		transition: all 5s ease;
+	}
+	#p-transition:hover {
+		background: red;
+	}
+	</style>
+	<p id="p-transition">
+		Hover qua thẻ p để xem hiệu ứng
+	</p>
+
+	<div id="div-overflow">
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	</div>
+
+	<div id="parent-absolute">
+		<p id="child-absolute">
+			Thẻ p con áp dụng css absolute
+		</p>
+	</div>
+	
+
+	<div id="div-relative">
+		Thẻ div với css postion relative
+	</div>
+
+	<div id="div-fixed">Cuộn trang</div>
+
+	<h1 id="h1-text">Thẻ h1 với css text</h1>
+
+
+	<p id="p-background">
+		Thẻ p với css background
+	</p>
+
+	<a id="a-before-after">Thẻ a</a>
+	<ul>
+		<li>Thẻ li thứ nhất</li>
+		<li>Thẻ li thứ 2</li>
+		<li>Thẻ li thứ 3</li>
+		<li>Thẻ li thứ 4</li>
+	</ul>
+
+	<p id="p-hover">
+		Hover qua thẻ p để thấy hiệu ứng
+	</p>
+
+
+	<div id="person">
+		<a>Thẻ a con thứ nhất</a>
+		<a>Thẻ a con thứ 2</a>
+		<a>Thẻ a con thứ 3</a>
+	</div>
+
+	<a href="abc.vn">Link abc.vn</a>
+	<a href="xyz.com">Link xyz.com</a>
+</body>
+</html>

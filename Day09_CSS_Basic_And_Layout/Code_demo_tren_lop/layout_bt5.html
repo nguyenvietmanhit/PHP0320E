@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8" />
+	<title>Demo bài tập 4 phần layout</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- Các bước xây dựng layout 1 trang web -->
+	<!-- 
+	1 - Xây dựng cấu trúc tổng quát của trang web đó, chia thành các bố cục chính như header, main, footer ...
+	2 - Trong quá trình xây dựng cấu trúc HTML, nếu gặp cấu trúc layout dạng hàng và cột, thì khai báo cấu trúc row-col
+	3 - Xây dựng chi tiết nội dung cho từng khối
+	4 - xong hết HMTL thì đi CSS
+	5 - xong hết HMTL CSS thì Javascript -->
+	<div class="container">
+		<!-- HEADER -->
+		<div class="header">
+			This is a header
+		</div>
+		<!-- END HEADER -->
+		
+		<!-- MAIN CONTENT -->
+		<div class="main-content">
+			<!-- MENU LEFT -->
+			<div class="row">
+				<div class="menu-left">
+					<ul>
+						<li>Menu</li>
+						<li>********</li>
+						<li>********</li>
+						<li>********</li>
+						<li>********</li>
+					</ul>
+				</div>
+				<!-- END MENU LEFT -->
+				<!-- MAIN -->
+				<div class="main">
+					<div class="some-text">
+						Some text
+					</div>
+					<!-- do khối dưới đấy có cấu trúc hàng - cột nên sẽ sử dụng cấu trúc row-col để xây dựng -->
+					<div class="image-text">
+						<div class="row">
+							<div class="col">
+								An image
+							</div>
+							<div class="col">
+								More text
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- END MAIN -->
+			</div>
+		</div>
+		<!-- END MAIN CONTENT -->
+		
+
+	</div>
+</body>
+</html>
