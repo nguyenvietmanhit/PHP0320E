@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo form Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- Tích hợp Bootstrap và fontawesome vào hệ thông -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/all.min.css" />
+	<!-- Tạo mới file css/style.css -->
+	<link rel="stylesheet" href="css/style.css"
+	 />
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Login</h1>
+			<span>
+				Don't have acoount?
+				<a href="#" class="signup">Sign up</a>
+			</span>
+		</div>
+		<div class="main">
+			<form action="" method="post">
+				<div class="form-group">
+					<label for="username">
+						<i class="fas fa-user"></i>
+						Username/Email
+					</label>
+					<input type="text" id="username" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label for="password">
+						<i class="fas fa-lock"></i>
+						Password
+					</label>
+					<input type="password" class="form-control" id="password" />
+				</div>
+				<div class="form-check">
+					<input type="checkbox" class="form-check-input" id="remember" />
+					<label for="remember">
+						Remember Me
+					</label>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Login" class="btn btn-primary" />
+				</div>
+			</form>
+		</div>
+		<div class="footer">
+			Forgotten your password? 
+			<a href="#">Click here</a>
+		</div>
+	</div>
+</body>
+</html>

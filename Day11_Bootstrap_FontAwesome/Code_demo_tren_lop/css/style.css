@@ -1,10 +1,12 @@
 h1:after {
 	content: '';
-    width: 50px;
-    border-top: 3px solid red;
+    background: red;
+    width: 20px;
+    border: 1px solid red;
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
 }
-h1 {
+
+.header {
 	text-align: center;
 }
