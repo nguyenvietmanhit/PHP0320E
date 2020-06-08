@@ -1,0 +1,15 @@
+Cách viết CV với các bạn fresher
+- Hầu như chưa có kinh nghiệm thực tế
+- Yên tâm là bên tuyển dụng khi họ tuyển fresher thì họ đã biết trc điều này
+- Trong CV của fresher, cần phải tập trung nhiều nhất vào phần mô tả đồ án / project cuối khóa của bạn
+VD: mô tả chỉ 1 projcet PHP:
+Đã xây dựng 1 project MVC sử dụng PHP kết hợp CSDL MySQL, sử dụng Git để làm việc nhóm
+- Hệ thống backend: 
++ Chức năng thêm/sửa/xóa user: 
++ Chức năng thêm/sửa/xóa sản phẩm: 
++ Thống kê đơn hàng theo ngày, theo tháng, đã thanh toán hay chưa ...
+- Hệ thống frontend:
++ Chức năng giỏ hàng
++ Chức năng thanh toán, có tích hợp thanh toán trực tuyết như Ngân lượng, bảo kim
++ sau khi thanh toán thì gửi mail báo thành công
+ - Viết/trình bày như CV cho hợp lý, thường sẽ lên các trang cho phép đăng cv online để làm theo mẫu của họ. Sau đó có thể export ra file .pdf -> topvn.vn

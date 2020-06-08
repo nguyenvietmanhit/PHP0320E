@@ -1,0 +1,211 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Trang register</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			HEADER
+			<ul>
+				<li>
+					<a href="home.html">
+						Trang chủ
+					</a>
+				</li>
+				<li>
+					<a href="category.html">
+						Danh mục
+					</a>
+				</li>
+				<li>
+					<a href="login.html">
+						Login
+					</a>
+				</li>
+				<li class="active">
+					<a href="register.html">
+						Đăng ký tài khoản
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="main">
+			<h1>Đây là trang register</h1>
+			<h2>Form đăng ký tài khoản</h2>
+			<form action="" method="post" id="form">
+				<table>
+					<!-- Hàng 1 -->
+					<tr>
+						<td>Họ tên: *</td>
+						<td>
+							<input type="text" id="name" />
+						</td>
+					</tr>
+					<!-- Hàng 2 -->
+					<tr>
+						<td>Tuổi: *</td>
+						<td>
+							<input type="text" id="age" />
+						</td>
+					</tr>
+					<!-- Hàng 3 -->
+					<tr>
+						<td>Email: *</td>
+						<td>
+							<input type="text" id="email" />
+						</td>
+					</tr>
+					<!-- Hàng 4 -->
+					<tr>
+						<td>Giới tính</td>
+						<td>
+							<!-- với input type=radio, thì name phải trùng nhau, khi đó chức năng radio mới hoạt động chính xác -->
+							<input type="radio" name="gender" id="gender-male" value="male"> Nam
+							<input type="radio" name="gender" id="gender-female" value="female"> Nữ
+						</td>
+					</tr>
+					<!-- Hàng 5 -->
+					<tr>
+						<td>Nghề nghiêp: *</td>
+						<td>
+							<input type="checkbox" id="job-dev" value="dev" /> Dev
+							<input type="checkbox" id="job-tester" value="tester"> Tester
+						</td>
+					</tr>
+					<!-- Hàng 6 -->
+					<tr>
+						<td>Chọn khóa học *</td>
+						<td>
+							<select id="course">
+								<option value="none">--Vui lòng chọn--</option>
+								<option value="php">PHP</option>
+								<option value="js">JS</option>
+							</select>
+						</td>
+					</tr>
+					<!-- HÀng 7 -->
+					<tr>
+						<td>Mật khẩu *</td>
+						<td>
+							<input type="password" id="password" />
+						</td>
+					</tr>
+					<!-- Hàng 8 -->
+					<tr>
+						<td>Nhập lại mật khẩu *</td>
+						<td>
+							<input type="password" id="confirm-password" />
+						</td>
+					</tr>
+					<!-- Hàng 9 -->
+					<tr>
+						<td>Ghi chú thêm</td>
+						<td>
+							<!-- giữa nội dung của cặp thẻ textarea sẽ ko đc bất kỳ 1 khoảng trắng nào, nếu ko con trỏ chuột khi đứng tại textarea sẽ ko nằm ở vị trí bắt đầu -->
+							<textarea id="note" cols="20"></textarea>
+						</td>
+					</tr>
+					<!-- Hàng 10 -->
+					<tr>
+						<td colspan="2">
+							<input type="submit" value="Gửi thông tin" />
+							<input type="reset" value="Xóa thông tin" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="footer">FOOTER</div>
+	</div>
+	<!-- khai báo vùng chờ hiển thị lỗi -->
+	<h3 id="error" style="color: red"></h3>
+	<script type="text/javascript">
+		//xử lý submit form, nếu ko có lỗi thì sẽ gửi mail dựa theo trường email
+		var obj_form = document.getElementById('form');
+		//gắn sự kiện submit vào form
+		obj_form.addEventListener('submit', function() {
+			//lấy đối tượng của từng input và lấy giá trị tương ứng
+			//lấy ra đối tượng name
+			var obj_name = document.getElementById('name');
+			var name = obj_name.value;
+			//lấy ra đối tượng age
+			var obj_age = document.getElementById('age');
+			var age = obj_age.value;
+			//lấy ra đối tượng email
+			var obj_email = document.getElementById('email');
+			var email = obj_email.value;
+			//lấy đối tượng giới tính
+			//lấy ra radio Nam trước
+			var obj_gender_male = document.getElementById('gender-male');
+			//trc khi lấy đc giá trị của radio, cần kiểm tra radio đó phải đc tích vào
+			var count_checked_radio = 0;
+			if (obj_gender_male.checked) {
+				var gender_male = obj_gender_male.value;
+			} else {
+				count_checked_radio++;
+			}
+			//lấy ra radio Nữ
+			var obj_gender_female = document.getElementById('gender-female');
+			if (obj_gender_female.checked) {
+				var gender_female = obj_gender_female.value;
+			} else {
+				count_checked_radio++;
+			}
+
+			//lấy ra đối tượng Job
+			// var obj_course_dev = 
+			//Lấy ra đối tượng Khóa học
+			var obj_couse = document.getElementById('course');
+			var course = obj_couse.value;
+
+			//lấy đối tượng Mật khẩu
+			var obj_password = document.getElementById('password');
+			var password = obj_password.value;
+
+			//lấy đối tượng Nhập lại mật khẩu
+			var obj_confirm_password = document.getElementById('confirm-password');
+			var confirm_password = obj_confirm_password.value;
+			//lấy ra đối tượng Ghi chú thêm
+			var obj_note = document.getElementById('note');
+			var note = obj_note.value;
+
+			var error = '';
+			//xử lý validate cho form theo yêu cầu đề bài
+			//tạo biến regex để kiểm tra email
+			var regex_email = /^[a-zA-Z0-9_-]{1,}@([a-zA-Z0-9_]{1,}(\.){1})([a-zA-Z0-9\.]{0,})$/;
+			if (name == '') {
+				error = 'Name ko đc để trống';
+				//khi có lỗi thì focus con trỏ chuột vào input đó, để tiện cho user
+				obj_name.focus();
+			} else if(age == '' || isNaN(age)) {
+				error = 'Ko đc để trống age hoặc phải nhập số';
+				obj_age.focus();
+			} else if (!regex_email.test(email)) {
+				error = 'Phải nhập đúng định dạng email';
+				obj_email.focus();
+			} else if (count_checked_radio == 2) {
+				error = 'Phải chọn giới tính';
+				obj_gender_male.focus();
+			} else if (course == 'none') {
+				error = 'Phải chọn khóa học';
+				obj_couse.focus();
+			} else if (password == '' || confirm_password == '') {
+				error = 'Password hoặc confirm password ko đc để trống';
+				obj_password.focus();
+			} else if (password != confirm_password) {
+				error = 'Password phải trùng nhau';
+				obj_confirm_password.focus();
+			}
+
+			//hiển thị lỗi ra thẻ h3 đang chờ
+			document.getElementById('error').innerHTML = error;
+			//ngăn ngừa hành vi tải lại trang khi submit form
+			event.preventDefault();
+		});
+	</script>
+</body>
+</html>
