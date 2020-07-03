@@ -2,42 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34214116-5b01-46f2-b509-6db2d6b19827" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_form_upload.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_read_write.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_upload_file.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_form_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_form_upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/uploads/1593439082-img3.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-604606408">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo_php_basic_2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_php_basic_2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12520">
-              <caret line="313" column="15" lean-forward="false" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
-              <folding>
-                <marker date="1593170615917" expanded="true" signature="1672:1682" ph="..." />
-                <marker date="1593170615917" expanded="true" signature="2100:2110" ph="..." />
-                <marker date="1593170615917" expanded="true" signature="3421:3531" ph="..." />
-                <marker date="1593170615917" expanded="true" signature="3427:3471" ph="..." />
-                <marker date="1593170615917" expanded="true" signature="3476:3522" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chua_bt_ngay_16.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/chua_bt_ngay_16.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+            <state relative-caret-position="952">
+              <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
               <folding>
                 <element signature="e#6#32#0#PHP" expanded="true" />
               </folding>
@@ -45,21 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_form.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="1173">
+              <caret line="69" column="16" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thuc_hanh_form.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="918">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding>
                 <element signature="e#86#146#0#PHP" expanded="true" />
               </folding>
@@ -67,67 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_login_form.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_login_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="612">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thuc_hanh_3.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_3.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding />
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_read_write.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_read_write.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-              <folding>
-                <element signature="e#6#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo_upload_file.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_upload_file.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-984">
-              <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo_form_upload.php" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_form_upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1003">
+              <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -148,8 +124,8 @@
         <option value="$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_login_form.php" />
         <option value="$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_3.php" />
         <option value="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt" />
-        <option value="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_read_write.php" />
         <option value="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_upload_file.php" />
+        <option value="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_read_write.php" />
         <option value="$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_form_upload.php" />
       </list>
     </option>
@@ -160,7 +136,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="12" />
     <option name="width" value="1346" />
@@ -170,17 +145,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -189,83 +154,36 @@
           <expand>
             <path>
               <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day14_PHP_Setup_Enviroment_And_Basic" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day18_Process_File_Form_Upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day14_PHP_Setup_Enviroment_And_Basic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bai_tap_ve_nha" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day14_PHP_Setup_Enviroment_And_Basic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Code_demo_tren_lop" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day16_PHP_Array_Function_Array" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day16_PHP_Array_Function_Array" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bai_tap_ve_nha_PHP_Array" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day17_PHP_Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day17_PHP_Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bai_tap_ve_nha_Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day17_PHP_Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Code_demo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day17_PHP_Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Slides" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day18_Process_File_Form_Upload" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day18_Process_File_Form_Upload" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Codes_demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day18_Process_File_Form_Upload" type="462c0819:PsiDirectoryNode" />
+              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP0320E\Day18_Process_File_Form_Upload\Codes_demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,9 +196,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -295,34 +210,37 @@
       <workItem from="1592568359809" duration="8897000" />
       <workItem from="1593170673254" duration="11833000" />
       <workItem from="1593430684703" duration="9802000" />
+      <workItem from="1593486752848" duration="475000" />
+      <workItem from="1593491299597" duration="204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30532000" />
+    <option name="totallyTimeSpent" value="31211000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,125 +249,50 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/chua_bt_ngay_14.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/chua_bt_ngay_16.php">
+    <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_php_basic_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="56" column="53" lean-forward="true" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        <state relative-caret-position="5321">
+          <caret line="313" column="15" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/dev03-project-0504.csv" />
+    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_upload_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="86" column="36" lean-forward="true" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_read_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#6#32#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_php_basic_2.php">
+    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12520">
-          <caret line="313" column="15" lean-forward="false" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
-          <folding>
-            <marker date="1593170615917" expanded="true" signature="1672:1682" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="2100:2110" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3421:3531" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3427:3471" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3476:3522" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding>
-            <element signature="e#86#146#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_login_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/chua_bt_ngay_14.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_php_basic_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5474">
-          <caret line="322" column="18" lean-forward="true" selection-start-line="322" selection-start-column="18" selection-end-line="322" selection-end-column="18" />
-          <folding>
-            <marker date="1593170615917" expanded="true" signature="1672:1682" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="2100:2110" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3421:3531" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3427:3471" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3476:3522" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/chua_bt_ngay_14.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_php_basic_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12520">
-          <caret line="313" column="15" lean-forward="false" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
-          <folding>
-            <marker date="1593170615917" expanded="true" signature="1672:1682" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="2100:2110" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3421:3531" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3427:3471" ph="..." />
-            <marker date="1593170615917" expanded="true" signature="3476:3522" ph="..." />
-          </folding>
+        <state>
+          <caret column="96" lean-forward="true" selection-start-column="96" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/chua_bt_ngay_16.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        <state relative-caret-position="952">
+          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
           <folding>
             <element signature="e#6#32#0#PHP" expanded="true" />
           </folding>
@@ -458,16 +301,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="1173">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="918">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
             <element signature="e#86#146#0#PHP" expanded="true" />
           </folding>
@@ -476,54 +318,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_login_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="612">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_read_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-          <folding>
-            <element signature="e#6#32#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_upload_file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-984">
-          <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#!!top" expanded="true" />
-          </folding>
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day18_Process_File_Form_Upload/Codes_demo/demo_form_upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="1003">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
         </state>
       </provider>
     </entry>

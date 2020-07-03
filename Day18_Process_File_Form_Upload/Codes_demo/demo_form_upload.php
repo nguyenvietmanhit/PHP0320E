@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-<form action="" method="post" enctype="multipart/form-data">
+<form action="#" method="post" enctype="multipart/form-data">
     Name:
     <input type="text" name="name" value="" />
     <br />
