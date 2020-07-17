@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34214116-5b01-46f2-b509-6db2d6b19827" name="Default" comment="" />
+    <list default="true" id="34214116-5b01-46f2-b509-6db2d6b19827" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/detail.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/sql_injection_demo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/demo_xss.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/update.php" afterPath="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/update.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,22 +51,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day21_PHP_Connect_MySQL/Codes_demo/crud/index.php">
+        <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="-920">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <marker date="1594650567612" expanded="true" signature="592:616" ph="SELECT * FRO... categories" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/index.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1040">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="-2520">
+              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
               <folding>
-                <marker date="1594650567612" expanded="true" signature="592:616" ph="SELECT * FRO... categories" />
+                <marker date="1594985718011" expanded="true" signature="592:616" ph="SELECT * FRO... categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql_injection_demo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/sql_injection_demo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <marker date="1594994499650" expanded="true" signature="1037:1074" ph="SELECT * FRO... categories" />
+                <marker date="1594994499650" expanded="true" signature="1037:1089" ph="SELECT * FRO... categories" />
+                <marker date="1594994499650" expanded="true" signature="1630:1718" ph="..." />
+                <marker date="1594994499650" expanded="true" signature="1688:1718" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo_xss.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/demo_xss.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#25#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="e#2419#3260#0#PHP" expanded="false" />
+                <marker date="1594991678045" expanded="true" signature="1010:1045" ph="SELECT * FRO... categories" />
+                <marker date="1594991678045" expanded="true" signature="1010:1046" ph="SELECT * FRO... categories" />
+                <marker date="1594991678045" expanded="true" signature="4872:4911" ph="UPDATE categories... " />
+                <marker date="1594991678045" expanded="true" signature="4872:4943" ph="UPDATE categories... " />
+                <marker date="1594991678045" expanded="true" signature="4872:4966" ph="UPDATE categories... " />
+                <marker date="1594991678045" expanded="true" signature="4872:4979" ph="UPDATE categories... " />
+                <marker date="1594991678045" expanded="true" signature="4872:4980" ph="UPDATE categories... " />
+                <marker date="1594991678045" expanded="true" signature="5423:5508" ph="..." />
+                <marker date="1594991678045" expanded="true" signature="5469:5508" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <marker date="1594991678004" expanded="true" signature="349:385" ph="SELECT * FRO... categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="103" selection-end-column="1" />
+              <folding>
+                <element signature="e#784#4131#0#PHP" expanded="false" />
+                <element signature="n#form#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,7 +150,7 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="520">
               <caret line="13" column="9" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
@@ -79,8 +160,8 @@
       <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="1120">
+              <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding>
                 <marker date="1594650567574" expanded="true" signature="637:670" ph="DELETE FROM categories... " />
                 <marker date="1594650567574" expanded="true" signature="637:671" ph="DELETE FROM categories... " />
@@ -89,63 +170,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="2680">
               <caret line="105" column="42" lean-forward="false" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
               <folding>
                 <element signature="e#1162#2226#0#PHP" expanded="false" />
                 <element signature="e#1385#2226#0#PHP" expanded="false" />
                 <element signature="e#2433#3225#0#PHP" expanded="false" />
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
                 <marker date="1594647587626" expanded="true" signature="3560:3615" ph="INSERT INTO categories... " />
                 <marker date="1594647587626" expanded="true" signature="3560:3665" ph="INSERT INTO categories... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day21_PHP_Connect_MySQL/Codes_demo/crud/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="e#6#25#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day21_PHP_Connect_MySQL/Codes_demo/crud/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day21_PHP_Connect_MySQL/Codes_demo/crud/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-              <folding>
-                <marker date="1594391332505" expanded="true" signature="1170:1210" ph="INSERT INTO categories... " />
-                <marker date="1594391332505" expanded="true" signature="1170:1243" ph="INSERT INTO categories... " />
               </folding>
             </state>
           </provider>
@@ -192,6 +227,11 @@
         <option value="$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/create.php" />
         <option value="$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/delete.php" />
         <option value="$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/index.php" />
+        <option value="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/update.php" />
+        <option value="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/detail.php" />
+        <option value="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/sql_injection_Demo.php" />
+        <option value="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/sql_injection_demo.php" />
+        <option value="$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/demo_xss.php" />
       </list>
     </option>
   </component>
@@ -225,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,11 +356,28 @@
               <item name="crud" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day23_PHP_Ajax_SQL_Injection" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day23_PHP_Ajax_SQL_Injection" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Codes_demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day23_PHP_Ajax_SQL_Injection" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Codes_demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="crud" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -369,18 +427,19 @@
       <workItem from="1593777281826" duration="9702000" />
       <workItem from="1594035621217" duration="7076000" />
       <workItem from="1594380435187" duration="9743000" />
-      <workItem from="1594639646929" duration="10863000" />
+      <workItem from="1594639646929" duration="10938000" />
+      <workItem from="1594985794254" duration="9576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68595000" />
+    <option name="totallyTimeSpent" value="78246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39609376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -412,53 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_Session_Cookie/Codes_demo/thuc_hanh_session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_Session_Cookie/Codes_demo/login_success.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_Session_Cookie/Codes_demo/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_MySQL_Database/Codes_demo/demo_mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/thuc_hanh_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day17_PHP_Form/Code_demo/demo_login_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
@@ -498,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4720">
           <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,13 +770,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="520">
           <caret line="13" column="9" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
@@ -779,13 +783,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="2680">
           <caret line="105" column="42" lean-forward="false" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
           <folding>
             <element signature="e#1162#2226#0#PHP" expanded="false" />
             <element signature="e#1385#2226#0#PHP" expanded="false" />
             <element signature="e#2433#3225#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
             <marker date="1594647587626" expanded="true" signature="3560:3615" ph="INSERT INTO categories... " />
             <marker date="1594647587626" expanded="true" signature="3560:3665" ph="INSERT INTO categories... " />
           </folding>
@@ -794,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="1120">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <marker date="1594650567574" expanded="true" signature="637:670" ph="DELETE FROM categories... " />
             <marker date="1594650567574" expanded="true" signature="637:671" ph="DELETE FROM categories... " />
@@ -805,10 +808,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22_PHP_MySQL_CRUD_Ajax_SQL_Injection/Codes_demo/crud/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1040">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="-920">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding>
             <marker date="1594650567612" expanded="true" signature="592:616" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="103" selection-end-column="1" />
+          <folding>
+            <element signature="e#784#4131#0#PHP" expanded="false" />
+            <element signature="n#form#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#2419#3260#0#PHP" expanded="false" />
+            <marker date="1594991678045" expanded="true" signature="1010:1045" ph="SELECT * FRO... categories" />
+            <marker date="1594991678045" expanded="true" signature="1010:1046" ph="SELECT * FRO... categories" />
+            <marker date="1594991678045" expanded="true" signature="4872:4911" ph="UPDATE categories... " />
+            <marker date="1594991678045" expanded="true" signature="4872:4943" ph="UPDATE categories... " />
+            <marker date="1594991678045" expanded="true" signature="4872:4966" ph="UPDATE categories... " />
+            <marker date="1594991678045" expanded="true" signature="4872:4979" ph="UPDATE categories... " />
+            <marker date="1594991678045" expanded="true" signature="4872:4980" ph="UPDATE categories... " />
+            <marker date="1594991678045" expanded="true" signature="5423:5508" ph="..." />
+            <marker date="1594991678045" expanded="true" signature="5469:5508" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1594991678004" expanded="true" signature="349:385" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2520">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <marker date="1594985718011" expanded="true" signature="592:616" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/crud/sql_injection_demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <marker date="1594994499650" expanded="true" signature="1037:1074" ph="SELECT * FRO... categories" />
+            <marker date="1594994499650" expanded="true" signature="1037:1089" ph="SELECT * FRO... categories" />
+            <marker date="1594994499650" expanded="true" signature="1630:1718" ph="..." />
+            <marker date="1594994499650" expanded="true" signature="1688:1718" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Ajax_SQL_Injection/Codes_demo/demo_xss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#25#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
