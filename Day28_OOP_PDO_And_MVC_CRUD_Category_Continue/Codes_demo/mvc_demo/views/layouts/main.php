@@ -18,6 +18,20 @@
     <h3 style="color: red">
         <?php echo $this->error; ?>
     </h3>
+    <?php
+    if (isset($_SESSION['success'])) {
+        //có thể dùng cặp {} để hiển thị giá trị 1 mảng mà ko
+      //cần nối chuỗi
+      echo "<h3 style='color: green'>{$_SESSION['success']}</h3>";
+      unset($_SESSION['success']);
+    }
+    if (isset($_SESSION['error'])) {
+      //có thể dùng cặp {} để hiển thị giá trị 1 mảng mà ko
+      //cần nối chuỗi
+      echo "<h3 style='color: red'>{$_SESSION['error']}</h3>";
+      unset($_SESSION['error']);
+    }
+    ?>
 
     <!--  Hiển thi nội dung động  -->
 <!-- cơ chế render view động   -->
