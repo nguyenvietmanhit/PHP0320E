@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34214116-5b01-46f2-b509-6db2d6b19827" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/layouts/main.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +14,13 @@
     <session id="-604606408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="480">
               <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
@@ -90,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+            <state relative-caret-position="2840">
+              <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
               <folding>
                 <element signature="n#create#0;n#CategoryController#0;n#!!top" />
                 <element signature="n#render#0;n#CategoryController#0;n#!!top" />
@@ -103,11 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="160">
               <caret line="4" selection-start-line="4" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="n#form#0;n#!!top" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="480">
               <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
             </state>
           </provider>
@@ -125,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/detail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -133,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="760">
               <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
               <folding>
                 <element signature="e#6#43#0#PHP" expanded="true" />
@@ -145,13 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -277,126 +263,6 @@
               <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day28_OOP_PDO_And_MVC_CRUD_Category_Continue" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -459,18 +325,18 @@
       <workItem from="1595850189263" duration="10056000" />
       <workItem from="1596195157418" duration="9837000" />
       <workItem from="1596453592654" duration="10621000" />
-      <workItem from="1596799346592" duration="10647000" />
+      <workItem from="1596799346592" duration="10882000" />
+      <workItem from="1596866331664" duration="205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130084000" />
+    <option name="totallyTimeSpent" value="130524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.016990291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36686838" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -673,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#36#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#51#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,26 +655,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="480">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="2840">
+          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#create#0;n#CategoryController#0;n#!!top" />
+            <element signature="n#render#0;n#CategoryController#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" selection-start-line="4" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="760">
           <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding>
             <element signature="e#6#43#0#PHP" expanded="true" />
@@ -822,38 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/detail.php">
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="4" selection-start-line="4" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="n#form#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/views/categories/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_And_MVC_CRUD_Category_Continue/Codes_demo/mvc_demo/controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-          <folding>
-            <element signature="n#create#0;n#CategoryController#0;n#!!top" />
-            <element signature="n#render#0;n#CategoryController#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
