@@ -1,3 +1,4 @@
+<!--views/layouts/main.php-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,7 +52,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="assets/js/adminlte.min.js"></script>
-<!--CKEditor -->
+<!-- Tích hợp CKEditor -->
 <script src="assets/ckeditor/ckeditor.js"></script>
 <!--My SCRIPT-->
 <script src="assets/js/script.js"></script>

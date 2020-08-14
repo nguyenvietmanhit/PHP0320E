@@ -1,3 +1,4 @@
+<!--views/categories/create.php-->
 <h2>Thêm mới danh mục</h2>
 <form method="post" action="" enctype="multipart/form-data">
     <div class="form-group">
@@ -14,6 +15,9 @@
 
     <div class="form-group">
         <label>Mô tả</label>
+<!--    Tích hợp CKEditor cho textarea mô tả , tích hợp dựa
+vào thuộc tính name của thẻ textarea
+  -->
         <textarea class="form-control"
                   name="description"><?php echo isset($_POST['description']) ? $_POST['description'] : ''; ?></textarea>
     </div>
