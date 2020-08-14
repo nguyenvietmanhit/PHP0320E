@@ -1,3 +1,6 @@
+<?php
+//mvc_original/views/layouts/main.php
+?>
 <!DOCTYPE html>
 <html>
 <head>
