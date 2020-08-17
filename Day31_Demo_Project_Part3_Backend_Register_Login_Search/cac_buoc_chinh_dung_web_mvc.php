@@ -160,5 +160,54 @@ backend/
        /.htaccess: rewrite url, thường dùng bên frontend
 Với cấu trúc bên frontend, hoàn toàn tương tự cấu trúc
 backend
+
+
 -->
+<?php
+/*
+ * BACKEND:
+ * 1 - Demo chức năng đăng ký/đăng nhập:
+ * Giao diện của các chức năng này sẽ khác so với file layout
+ * chính của backend -> tạo 1 file layout khác chỉ dùng cho
+ * các chức năng mà user chưa đăng nhập vào backend -> 1 website
+ * có thể có nhiều file layout
+ * + Chức năng đăng ký: mật khẩu bắt buộc phải mã hóa trước khi
+ * lưu vào CSDL, để demo thì dùng cơ chế mã hóa md5, thực tế
+ * cần dùng các cơ chế mã hóa bảo mật hơn. Cần phải check thêm
+ * chỉ cho phép đky username chưa tồn tại trên hệ thống
+ * + Chức năng đăng nhập: khi kiểm tra login, sử dụng md5 để
+ * lấy chuỗi mã hóa của mật khẩu trc khi kiểm tra trong CSDL
+ * + (Chức năng thêm) Chức năng quên mật khẩu: có 1 form, có
+ * 1 input duy nhất là nhập email. Khi user nhập email, gửi 1
+ * mail chứa nội dung chính: sẽ chứa 1 link là url tới trang của
+ * bạn để reset mật khẩu:
+ * http://localhost/mvc/index.php?controller=user&
+ * action=reset_password&email=<email-mã-hóa-md5>
+ * Khi gửi mail mà có chứa url tới trang của bạn, cần phải set
+ * url có đầy đủ cả domain, để lấy đc các thông số của domain
+ * $_SERVER
+ * + (Chức năng thêm): Quản lý đơn hàng: có 2 bảng liên quan
+ * orders, order_details, xây dựng chức năng RUD cho đơn hàng
+ * Về chức năng sửa đơn hàng: cho phép chỉ sửa thông tin ng mua
+ * hàng, sửa trạng thái đơn hàng ...
+ * + (Chức năng thêm): Chức năng thống kê:
+ * Thông kê đơn hàng: tổng số đơn hàng trên hệ thống
+ * (SELECT COUNT), thống kê đơn hàng theo trạng thái: đã thanh
+ * toán, chưa thanh toán
+ * Thống kê sản phẩm: sản phẩm bán chạy nhất (count theo
+ *  product_id theo từng đơn hàng), tổng số sp đang có trên
+ * hệ thống
+ * Thống kê tin tức: tổng số tin tức đang có
+ * + (Chức năng thêm) Phân quyền: chia quyền cho các user trên
+ * hệ thống backend, có thể thêm trường role vào bảng users:
+ * 0 : super admin - quyền cao nhất
+ * 1: admin - quyền thấp hơn super
+ * 2: sales - chỉ thao tác đc với các đơn hàng
+ * 3: editor - CRUD sản phẩm, CRUD tin tức ..
+ * Cần tạo thêm 1 bảng roles: CRUD các quyền trên hệ thống
+ *
+ *
+ * 2 - Demo chức năng tìm kiếm sản phẩm
+ */
+?>
 

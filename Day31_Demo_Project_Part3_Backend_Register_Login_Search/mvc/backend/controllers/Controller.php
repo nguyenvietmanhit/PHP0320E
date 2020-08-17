@@ -5,6 +5,7 @@
  * Date: 3/13/2020
  * Time: 11:02 PM
  */
+//controllers/Controller.php
 
 class Controller
 {
@@ -12,6 +13,8 @@ class Controller
     public $content;
     //chứa nội dung lỗi validate
     public $error;
+    //chứa nội dung động cho tiêu đề của từng trang, <title>
+    public $title_page;
 
     /**
      * @param $file string Đường dẫn tới file
