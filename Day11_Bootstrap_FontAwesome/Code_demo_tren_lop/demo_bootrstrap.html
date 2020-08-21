@@ -6,8 +6,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Tích hợp Bootstrap vào hệ thống -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+    Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+    Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+    Tooltip on left
+</button>
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
 <!-- 
 demo_bootstrap.html
 css/bootstrap.min.css
