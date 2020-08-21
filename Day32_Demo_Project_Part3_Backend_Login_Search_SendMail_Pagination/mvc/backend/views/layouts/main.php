@@ -1,4 +1,8 @@
 <!--views/layouts/main.php-->
+<!--
+Hiển thị các thông tin của user đã đăng nhập
+, sử dụng $_SESSION['user'] để xử lý hiển thị
+-->
 <!DOCTYPE html>
 <html>
 <head>

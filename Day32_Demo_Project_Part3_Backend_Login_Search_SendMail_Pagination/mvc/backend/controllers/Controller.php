@@ -9,6 +9,18 @@
 
 class Controller
 {
+//    khai báo phương thức khởi tạo cho class cha
+    public function __construct() {
+        //kiểm tra nếu user chưa đăng nhập thì ko cho phép
+        //truy cập các chức năng, chuyển hướng về trang login
+        //cần phải loại trừ controller=user
+        if (!isset($_SESSION['user']) && $_GET['controller'] != 'user') {
+            $_SESSION['error'] = 'Bạn cần đăng nhập';
+            header('Location: index.php?controller=user&action=login');
+            exit();
+        }
+    }
+
     //chứa nội dung view
     public $content;
     //chứa nội dung lỗi validate

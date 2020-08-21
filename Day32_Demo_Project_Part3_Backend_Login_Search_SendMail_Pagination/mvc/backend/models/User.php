@@ -51,4 +51,25 @@ class User extends Model {
         $is_insert = $obj_insert->execute($arr_insert);
         return $is_insert;
     }
+
+    //phương thức lấy user theo username và password
+    public function getUser($username, $password) {
+        // + Tạo câu truy vấn
+        $sql_select_one =
+        "SELECT * FROM users 
+        WHERE username=:username AND password=:password";
+        //+ Tạo đối tượng truy vấn
+        $obj_select_one =
+            $this->connection->prepare($sql_select_one);
+        // + Tạo mảng để truyền giá trị cho câu truy vấn
+        $arr_select = [
+          ':username' => $username,
+          ':password' => $password
+        ];
+        // + Thực thi đối tượng truy vấn
+        $obj_select_one->execute($arr_select);
+        // + Lấy ra mảng user
+        $user = $obj_select_one->fetch(PDO::FETCH_ASSOC);
+        return $user;
+    }
 }

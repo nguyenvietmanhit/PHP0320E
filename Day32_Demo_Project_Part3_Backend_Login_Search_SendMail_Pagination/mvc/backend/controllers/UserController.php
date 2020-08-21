@@ -44,7 +44,15 @@ class UserController extends Controller {
                     $password = md5($password);
                     $is_register =
                         $user_model->register($username, $password);
-                    var_dump($is_register);
+//                    var_dump($is_register);
+                    if ($is_register) {
+                        $_SESSION['success'] = 'Đăng ký thành công';
+                        //chuyển hướng sang trang login
+                        header('Location: index.php?controller=user&action=login');
+                        exit();
+                    } else {
+                        $this->error = "Không thể đăng ký";
+                    }
                 }
             }
         }
@@ -62,6 +70,56 @@ class UserController extends Controller {
         $this->content =
             $this->render('views/users/register.php');
         // + Gọi layout để hiển thị nội dung view vừa lấy đc
+        require_once 'views/layouts/main_login.php';
+    }
+
+    //Phương thức xử lý login
+    public function login() {
+        //XỬ LÝ SUBMIT FORM
+        echo "<pre>";
+        print_r($_POST);
+        echo "</pre>";
+        if (isset($_POST['login'])) {
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+            //Xử lý validate, ko đc để trống 2 trường
+            if (empty($username) || empty($password)) {
+                $this->error = 'Phải nhập cả 2 trường';
+            }
+            //Xử lý đăng nhập chỉ khi ko có lỗi nào xảy ra
+            if (empty($this->error)) {
+                $user_model = new User();
+                //cần mã hóa password đúng theo cơ chế đã lưu
+                //password này trc khi kiểm tra trong CSDL
+                $password = md5($password);
+                // Do cần hiển thị thông tin user sau khi login
+                //thành công, nên kêt quả trả về xử lý hàm
+                //getUser là 1 mảng, gán mảng đó cho session
+                $user = $user_model
+                    ->getUser($username, $password);
+                //nếu đăng nhập thành công
+                if (!empty($user)) {
+                    //Tạo session gán bằng mảng user trên
+                    $_SESSION['user'] = $user;
+                    $_SESSION['success'] = 'Đăng nhập thành công';
+                    header('Location: index.php?controller=product');
+                    exit();
+                } else {
+                    $this->error = 'Sai tài khoản hoặc mật khẩu';
+                }
+//                echo "<pre>";
+//                print_r($user);
+//                echo "</pre>";
+//                die;
+            }
+        }
+
+        $this->title_page = 'Trang đăng nhập';
+
+        // + Lấy nội dung view login tương ứng,
+        //tạo view: views/users/login.php
+        $this->content = $this->render('views/users/login.php');
+        // + Gọi layout để hiển thị
         require_once 'views/layouts/main_login.php';
     }
 }
