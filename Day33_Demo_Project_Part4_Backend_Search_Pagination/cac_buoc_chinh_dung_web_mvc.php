@@ -208,6 +208,14 @@ backend
  *
  *
  * 2 - Demo chức năng tìm kiếm sản phẩm
+ * + Demo tại backend: tạo 1 form tìm kiếm, xác định các thông tin
+ * cần tìm kiếm là gì - tìm theo tên sản phẩm, theo giá, theo
+ * trạng thái, theo tên danh mục
+ * + Thông thường form tìm kiếm nằm chung với chức năng liệt
+ * kê sản phẩm
+ * + VỀ mặt truy vấn sẽ sử dụng SELECT, điều kiện WHERE sẽ kết
+ * hợp với LIKE - tìm kiếm tương đối, khác với = là tìm kiếm
+ * tuyệt đối
  */
 ?>
 

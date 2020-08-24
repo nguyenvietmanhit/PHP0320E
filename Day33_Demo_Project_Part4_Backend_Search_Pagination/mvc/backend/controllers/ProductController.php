@@ -7,15 +7,36 @@ class ProductController extends Controller
 {
     public function index()
     {
+        //Để xử lý form search sẽ xử lý chung phương thức
+        //khi hiển thị danh sách sản phẩm, tạo 1 mảng chứa các
+        //thông tin search, truyền mảng này vào trong phương
+        //thức hiển thị ds sản phẩm
+        //debug mảng $_GET
+        $params = [];
+        echo "<pre>";
+        print_r($_GET);
+        echo "</pre>";
+        //Xử lý submit form search
+        if (isset($_GET['search'])) {
+            // + Tạo biến và gán giá trị
+            $category_id = $_GET['category_id'];
+            $name = $_GET['name'];
+            $price = $_GET['price'];
+            $params = [
+              'category_id' => $category_id,
+              'name' => $name,
+              'price' => $price
+            ];
+        }
         $product_model = new Product();
-
-        $products = $product_model->getAll();
-
+        //truyền mảng params trên vào phương thức getAll()
+        $products = $product_model->getAll($params);
 
         $category_model = new Category();
         $categories = $category_model->getAll();
 
-        $this->content = $this->render('views/products/index.php', [
+        $this->content =
+            $this->render('views/products/index.php', [
             'products' => $products,
             'categories' => $categories,
         ]);
