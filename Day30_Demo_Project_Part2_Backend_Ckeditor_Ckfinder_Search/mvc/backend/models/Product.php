@@ -107,7 +107,7 @@ class Product extends Model
   public function update($id)
   {
     $obj_update = $this->connection
-      ->prepare("UPDATE products SET category_id=:category_id, title=:title, avatar=:avatar, price=:price,amount=:amount 
+      ->prepare("UPDATE products SET category_id=:category_id, title=:title, avatar=:avatar, price=:price,amount=:amount, 
             summary=:summary, content=:content, status=:status, updated_at=:updated_at WHERE id = $id
 ");
     $arr_update = [
