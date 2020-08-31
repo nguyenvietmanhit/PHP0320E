@@ -30,7 +30,7 @@ class Product extends Model {
    * @param $id
    * @return mixed
    */
-  public function getById($id)
+      public function getById($id)
   {
     $obj_select = $this->connection
       ->prepare("SELECT products.*, categories.name AS category_name FROM products 

@@ -28,7 +28,8 @@ require_once 'helpers/Helper.php';
                             <?php echo number_format($product['price']) ?>
                 </span>
 
-                    <span data-id="<?php echo $product['id'] ?>" class="add-to-cart">
+                    <span data-id="<?php echo $product['id'] ?>"
+                          class="add-to-cart">
                         <a href="#" style="color: inherit">Thêm vào giỏ</a>
                     </span>
                 </div>
