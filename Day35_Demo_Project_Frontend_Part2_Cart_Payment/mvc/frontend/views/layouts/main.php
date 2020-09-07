@@ -1,6 +1,11 @@
+<!--frontend/views/layouts/main.php-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--  Khi áp dụng Rewrite URL trên trang,
+bắt buộc phải khai báo thẻ <base /> với cú pháp như
+sau để các url liên quan đến assets(css,js,images)
+ko bị lỗi-->
     <base href="<?php echo $_SERVER['SCRIPT_NAME'] ?>"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

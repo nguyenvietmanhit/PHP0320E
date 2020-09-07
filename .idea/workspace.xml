@@ -2,23 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34214116-5b01-46f2-b509-6db2d6b19827" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/diem-danh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/on_thi_wpm2/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/Day33_Demo_Project_Part4_Backend_Search_Pagination.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/cac_buoc_chinh_dung_web_mvc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/cac_buoc_chinh_dung_web_mvc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/views/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day33_Demo_Project_Part4_Backend_Search_Pagination/mvc/backend/views/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/configs/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/configs/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/PaymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/PaymentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/carts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/carts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/main.php" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-604606408">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="htaccess" value="1" />
+          <entry key="php" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="7" />
+          <entry key="htaccess" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="htaccess" value="1433" />
+          <entry key="php" value="3491" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="3491" />
+          <entry key="RegExp" value="1" />
+          <entry key="htaccess" value="1432" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/configs/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/CartController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/carts/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding>
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/helpers/Helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/PaymentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/payments/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1935" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,9 +171,121 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/configs/Database.php" />
+        <option value="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/CartController.php" />
+        <option value="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/carts/index.php" />
+        <option value="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/.htaccess" />
+        <option value="$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/PaymentController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
   <component name="ProjectId" id="1graKZqb3mXnSARJH8zCJsQy3Z3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="carts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0320E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0320E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day35_Demo_Project_Frontend_Part2_Cart_Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,8 +311,20 @@
       <recent name="C:\xampp\htdocs\PHP0320E\Day24_PHP_Pratice_WPM1_And_Ajax\Codes_demo\demo_ajax\js" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration name="UserController.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP0320E/Day32_Demo_Project_Part3_Backend_Login_Search_SendMail_Pagination/mvc/backend/controllers/UserController.php">
+    <configuration name="UserController.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP0320E/Day32_Demo_Project_Part3_Backend_Login_Search_SendMail_Pagination/mvc/backend/controllers/UserController.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -84,7 +333,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -117,11 +366,43 @@
       <workItem from="1598009941730" duration="10131000" />
       <workItem from="1598268492712" duration="10082000" />
       <workItem from="1598875109699" duration="8829000" />
+      <workItem from="1599479237125" duration="8740000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8740000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="394" y="86" key="NewPhpClassDialog" timestamp="1598875924964">
@@ -132,5 +413,77 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598875121394" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/configs/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/helpers/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/carts/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/views/payments/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Frontend_Part2_Cart_Payment/mvc/frontend/controllers/PaymentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

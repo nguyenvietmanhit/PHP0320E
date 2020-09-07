@@ -5,9 +5,41 @@ require_once 'models/Product.php';
 
 class CartController extends Controller {
 
-    public function index()
-    {
-        $this->content = $this->render('views/carts/index.php');
+    //Giỏ hàng của bạn
+    //Có thể truy cập thông qua url mvc như sau:
+    //index.php?controller=cart&action=index
+  // Url dạng rewrite đang là: gio-hang-cua-ban.html
+  //Thao tác với file .htaccess, ngang hàng với file
+  //index.php gốc của ứng dụng
+    public function index() {
+      // Xử lý Cập nhật lại giá
+//      echo "<pre>";
+//      print_r($_POST);
+//      echo "</pre>";
+      if (isset($_POST['submit'])) {
+        // Check thêm trường hợp nếu như số lượng là giá trị âm
+        //thì báo lỗi và ko update
+        foreach ($_SESSION['cart'] AS $product_id => $cart) {
+          if ($_POST[$product_id] < 0) {
+            $_SESSION['error'] = 'Số lượng phải > 0';
+//            $url_redirect = $_SERVER['SCRIPT_NAME'] . '/gio-hang-cua-ban';
+            header("Location: gio-hang-cua-ban.html");
+            exit();
+          }
+        }
+
+        //Lặp các phần tử trong giỏ hàng, và gán lại số lương
+        //tương ứng cho từng phần tử theo id của sản phẩm
+        foreach ($_SESSION['cart'] AS $product_id => $cart) {
+          //truy cập phần tử mảng theo product_id
+          $_SESSION['cart'][$product_id]['quantity']
+              = $_POST[$product_id];
+        }
+        $_SESSION['success'] = 'Cập nhật giỏ hàng thành công';
+      }
+
+        $this->content =
+            $this->render('views/carts/index.php');
         require_once 'views/layouts/main.php';
     }
 
@@ -61,5 +93,26 @@ class CartController extends Controller {
             }
         }
 
+    }
+
+    //Phương thức xóa sản phẩm khỏi giỏ hàng
+    public function delete() {
+      //Nếu trong rewrite đã có valiate bằng regex, ví dụ
+      //phải là số, thì bên PHP ko cần valiate lại nữa
+      echo "<pre>";
+      print_r($_GET);
+      echo "</pre>";
+      $product_id = $_GET['id'];
+      //Xóa sản phẩm trong giỏ hàng dựa theo id bắt đc
+      unset($_SESSION['cart'][$product_id]);
+      //Kiểm tra nếu xóa hết toàn bộ sản phẩm trong giỏ hàng r
+      // thì xóa luôn cái giỏ hàng đó đi
+      if (empty($_SESSION['cart'])) {
+        unset($_SESSION['cart']);
+      }
+      $_SESSION['success'] =
+          "Xóa sản phẩm có id = $product_id thành công";
+      header("Location: gio-hang-cua-ban.html");
+      exit();
     }
 }
