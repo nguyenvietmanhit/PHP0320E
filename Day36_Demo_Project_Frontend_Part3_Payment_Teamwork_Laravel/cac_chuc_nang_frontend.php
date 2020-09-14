@@ -76,20 +76,31 @@
  * + Dùng cơ chế ajax để lưu vào giỏ khi user click thêm vào
  * Giỏ hàng
  * + Cấu trúc giỏ hàng sẽ như sau:
+ *
+ *
+ * DEMO chức năng thanh toán:
+ * + VỀ mặt giao diện, trang thanh toán hiển thị 2 phần chính: form
+ * nhập thông tin mua hàng, thông tin giỏ hàng
+ * + Về mặt code: cần xử lý lưu vào 2 bảng sau: orders và
+ * order_details
+ * + Chú ý thêm: nếu user đã đăng nhập trên trang, thì sẽ hiển thị luôn
+ * các thông tin của user đó trong form thanh toán, còn nếu
+ * là khách vãng lai thì sẽ để nhập từ đầu
+ *
  */
-$_SESSION['cart'] = [
-    //mỗi 1 phần tử của giỏ hàng sẽ có dạng sau:
-    //<product_id> => []
-    3 => [
-        'name' => 'Samsung S9',
-        'price' => 3000,
-        'avatar' => 'samsung.jpg',
-        'quantity' => 5
-    ],
-    5 => [
-        'name' => 'Iphone',
-        'price' => 4000,
-        'avatar' => 'iphone.jpg',
-        'quantity' => 2
-    ]
-];
+//$_SESSION['cart'] = [
+//    //mỗi 1 phần tử của giỏ hàng sẽ có dạng sau:
+//    //<product_id> => []
+//    3 => [
+//        'name' => 'Samsung S9',
+//        'price' => 3000,
+//        'avatar' => 'samsung.jpg',
+//        'quantity' => 5
+//    ],
+//    5 => [
+//        'name' => 'Iphone',
+//        'price' => 4000,
+//        'avatar' => 'iphone.jpg',
+//        'quantity' => 2
+//    ]
+//];

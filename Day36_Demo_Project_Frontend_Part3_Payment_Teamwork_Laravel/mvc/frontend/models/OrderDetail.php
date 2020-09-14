@@ -5,4 +5,17 @@ class OrderDetail extends Model {
   public $product_id;
   public $quantity;
 
+  //Insert vào bảng order_details
+  public function insert() {
+    $sql_insert =
+"INSERT INTO order_details(order_id, product_id, quantity)
+VALUES (:order_id, :product_id, :quantity)";
+    $obj_insert = $this->connection->prepare($sql_insert);
+    $arr_insert = [
+        ':order_id' => $this->order_id,
+        ':product_id' => $this->product_id,
+        ':quantity' => $this->quantity,
+    ];
+    return $obj_insert->execute($arr_insert);
+  }
 }
